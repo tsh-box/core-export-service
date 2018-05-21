@@ -13,8 +13,8 @@ opam depext -y conf-gmp.1
 
 opam install -y yojson
 
-opam pin add -n sodium https://github.com/tsh2/ocaml-sodium.git#with_auth_hmac256
-opam pin add -n opium https://github.com/tsh2/opium.git#fix-ssl-option
+opam pin add -n sodium https://github.com/tsh-box/ocaml-sodium.git#with_auth_hmac256
+opam pin add -n opium https://github.com/tsh-box/opium.git#fix-ssl-option
 
 opam pin add -y export-service .
 
